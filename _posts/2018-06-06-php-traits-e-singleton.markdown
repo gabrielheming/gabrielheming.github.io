@@ -2,7 +2,6 @@
 layout: post
 title:  "PHP, Traits e Singleton"
 date:   2018-06-06 07:00:00 -0300
-categories: php trait singleton
 ---
 
 
