@@ -5,7 +5,6 @@ date:   2018-06-06 07:00:00 -0300
 categories: php trait singleton
 ---
 
-
 A minha maior motivação em participar do [fórum iMasters](imasters-perfil), sempre foi ajudar, ensinar e aprender. O
 último, como sempre,
 é o maior ganho que se pode ter, aprender enquanto ajuda alguém com dificuldade. Dentro desse contexto, algumas
@@ -135,11 +134,11 @@ class Registry
 {% endhighlight %}
 
 O `Registry`, nesse exemplo, é um `Singleton`. Os seguintes pontos são específicos do `Singleton`:
-- `__construct`: `privado` - não permitir instância direta;
+- `__construct`: `private` - não permitir criar uma instância diretamente;
 - `__wakeup`: `private` - não permitir unserialize;
-- `__clone`: `private` - não permitir clone da instância;
+- `__clone`: `private` - não permitir o clone da instância;
 - `getInstance`: `public` - retornar a instância única;
-- `$instance`: `private` e `static` - manter a instância única.
+- `$instance`: `private` e `static` - manter, a nível de classe, a instância única.
 
 
 Por outro lado, os demais métodos são específicos do `Registry`:
@@ -147,7 +146,7 @@ Por outro lado, os demais métodos são específicos do `Registry`:
 - `set`: inserir um registro;
 - `has`: verificar se um registro existe.
 
-Suponha que eu precise de outra classe que implemente o `Singleton` (um manipulador para o DOM, por exemplo). Logo, eu
+Suponha que precise de outra classe que implemente o `Singleton` (um manipulador para o DOM, por exemplo). Logo, eu
 preciso implementar todos os métodos básicos novamente. Vamos ao molde da nossa próxima classe Singleton:
 
 {% highlight php %}
@@ -214,7 +213,7 @@ Eis que surgem as `traits`. Nesse caso, é possível separar em uma `trait`, tod
 namespace Harbinger\StandardLibrary\Traits;
 
 /**
- * Trait for ﻿singleton
+ * Trait for singleton
  * @package Harbinger
  * @subpackage StandardLibrary\Trait
  * @author Gabriel Heming <gabriel.heming@hotmail.com>
