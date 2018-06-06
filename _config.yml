@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     Sempre de olho em novas tecnologias e desafios.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gabrielheming.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: America/Sao_Paulo
 # twitter_username: jekyllrb
 bitbucket_username: gabrielheming
 github_username: gabrielheming
@@ -50,7 +51,5 @@ plugins:
 #   - vendor/ruby/
 
 google_analytics: UA-71579155-4
-
-#profiles
 
 
