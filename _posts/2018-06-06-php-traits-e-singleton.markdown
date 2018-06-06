@@ -5,7 +5,7 @@ date:   2018-06-06 07:00:00 -0300
 categories: php trait singleton
 ---
 
-A minha maior motivação em participar do [fórum iMasters](imasters-perfil), sempre foi ajudar, ensinar e aprender. O
+A minha maior motivação em participar do [fórum iMasters]({{ site.imasters-perfil}}), sempre foi ajudar, ensinar e aprender. O
 último, como sempre,
 é o maior ganho que se pode ter, aprender enquanto ajuda alguém com dificuldade. Dentro desse contexto, algumas
 situações acabam nos dando uma lição ainda mais surpreendente.
@@ -39,7 +39,7 @@ e um ponto de acesso global.
 Normalmente, o padrão, é muito mal utilizado. Mas, sempre há a sua aplicabilidade. Um dos mais famosos uso é o
 [`Registry`][registry-definition].
 
-`Registry` é um repositórios de objetos. Normal﻿mente ele é aplicado como um padrão Singleton (mas não necessariamente
+`Registry` é um repositórios de objetos. Normalmente ele é aplicado como um padrão Singleton (mas não necessariamente
 deve ser um).
 
 Dessa forma, vamos a implementação de um Registry:
@@ -154,7 +154,7 @@ class SingletonClass
 {
 
     /**
-     * @var $th﻿is
+     * @var $this
      **/
     protected static $instance;
 
