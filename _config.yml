@@ -16,12 +16,20 @@
 title: Gabriel Heming
 email: gabriel.heming@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    I am an enthusiast of Object Oriented Programming and their respective patterns and principles.
-    Always looking for new technologies and challenges.
+    Entusiasta da programação orientada à objetos e seus respectivos padrões e princípios.
+    Sempre de olho em novas tecnologias e desafios.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gabrielheming.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  gabrielheming
+bitbucket_username: gabrielheming
+github_username: gabrielheming
+#linkedin_username: gabriel-bertolini-heming
+
+bitbucket-perfil: https://bitbucket.org/gabrielheming/
+github-perfil: https://github.com/gabrielheming/
+linkedin-perfil: https://www.linkedin.com/in/gabriel-bertolini-heming/
+imasters-perfil: https://forum.imasters.com.br/profile/159859-gabriel-heming/
+stack-overflow-perfil: https://pt.stackoverflow.com/users/5007/gabriel-heming
 
 # Build settings
 markdown: kramdown
@@ -42,4 +50,7 @@ plugins:
 #   - vendor/ruby/
 
 google_analytics: UA-71579155-4
+
+#profiles
+
 

@@ -1,18 +1,18 @@
 ---
 layout: page
-title: About
+title: Sobre
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Formado em Análise e Desenvolvimento de Sistemas pela FTEC e Especialista em Desenvolvimento de Software pela
+Universidade de Passo Fundo. Atua hoje como Analista de Sistemas e participa de fóruns como [iMasters]({{
+site.imasters-perfil}}) e [Stack Overflow]({{ site.stack-overflow-perfil}}).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Possui experiência em diversas linguagens e, desde 2010, dedicou-se ao estudo de design e arquitetura de software
+orientados à objeto. Divide seu _hobbie_ de programação com esportes.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+* BitBucket: [{{ site.bitbucket_username }}]({{ site.bitbucket-perfil}})
+* GitHub: [{{ site.github_username }}]({{ site.github-perfil}})
+* LinkedIn: [Gabriel Bertolini Heming]({{ site.linkedin-perfil}})
+* iMasters: [Gabriel Heming]({{ site.imasters-perfil}})
+* Stack Overflow: [Gabriel Heming]({{ site.stack-overflow-perfil}})
