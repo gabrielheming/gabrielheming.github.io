@@ -50,7 +50,4 @@ plugins:
 #   - vendor/ruby/
 
 google_analytics: UA-71579155-4
-
-#profiles
-
-
+timezone: America/Sao_Paulo
