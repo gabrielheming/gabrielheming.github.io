@@ -33,7 +33,7 @@ stack-overflow-perfil: https://pt.stackoverflow.com/users/5007/gabriel-heming
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 
