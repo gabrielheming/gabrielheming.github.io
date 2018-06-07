@@ -2,7 +2,8 @@
 layout: post
 title:  "PHP, Traits e Singleton"
 date:   2018-06-06 07:00:00 -0300
-categories: php trait singleton
+categories: [development , php]
+tags: [php , traits , trait , singleton , design pattern]
 ---
 
 A minha maior motivação em participar do [fórum iMasters]({{ site.imasters-perfil}}), sempre foi ajudar, ensinar e aprender. O
