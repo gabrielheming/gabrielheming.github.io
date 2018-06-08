@@ -2,7 +2,9 @@
 layout: post
 title:  "First things first"
 date:   2018-06-05 21:54:00 -0300
-categories: jekyll update
+categories: general
+author: Gabriel Heming
+
 ---
 Então, aqui estamos e aqui vamos nós.
 
