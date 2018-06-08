@@ -31,6 +31,9 @@ linkedin-perfil: https://www.linkedin.com/in/gabriel-bertolini-heming/
 imasters-perfil: https://forum.imasters.com.br/profile/159859-gabriel-heming/
 stack-overflow-perfil: https://pt.stackoverflow.com/users/5007/gabriel-heming
 
+just_comments:
+    api_key: 8c6f3597-bb2d-4c50-a5ca-2bf0f6c5e030
+
 # Build settings
 markdown: kramdown
 theme: minima
