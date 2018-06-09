@@ -2,6 +2,8 @@
 layout: post
 title:  "First things first"
 date:   2018-06-05 21:54:00 -0300
+categories: general
+author: Gabriel Heming
 ---
 Então, aqui estamos e aqui vamos nós.
 
@@ -16,4 +18,3 @@ dediquei-me quaseo que exclusivamente ao estudo de design e arquitetura de softw
 *So, enjoy the code!*
 
 Gabriel Heming
-
