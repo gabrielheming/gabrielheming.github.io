@@ -16,8 +16,8 @@
 title: Gabriel Heming
 email: gabriel.heming@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Entusiasta da programação orientada à objetos e seus respectivos padrões e princípios.
-    Sempre de olho em novas tecnologias e desafios.
+    I am an enthusiast of Object Oriented Programming and their respective patterns and principles. 
+    Always looking for new technologies and challenges.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gabrielheming.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: America/Sao_Paulo

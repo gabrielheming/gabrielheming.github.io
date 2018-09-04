@@ -5,15 +5,16 @@ date:   2018-06-05 21:54:00 -0300
 categories: general
 author: Gabriel Heming
 ---
-Então, aqui estamos e aqui vamos nós.
+So, here we are and here we go.
 
-Pela primeira vez, desde muito tempo apenas no "querendo", eu criei este blog para falar sobre código em geral,
-desenvolvido em qualquer linguagem ou software. Comentar sobre o dia-a-dia de um desenvolvedor de software e
-implementações em diversas linguagens.
+For the first time, after a long time with the "willing" feeling, I've created this blog to talk about code 
+in general and on development in any language/software. I'll talk about the day to day of a software developer 
+and many programming languages implementations.
 
-Antes que eu me esqueça, quem vos escreve, Gabriel Heming, sou formado em Análise e Desenvolvimento de Sistemas
-e Especialista em Desenvolvimento de Software. Possuo experiência em diversas linguagens e, nos últimos 8 anos,
-dediquei-me quaseo que exclusivamente ao estudo de design e arquitetura de software orientados à objeto.
+Before I forget, who writes to you is Gabriel Heming. I'm graduated in Software Analysis and Development, 
+and I have a Specialization in Software Development. I have experience in many programming languages and 
+for the last 8 year I've focused almost exclusively for the study ofObject Oriented design and software
+architecture.
 
 *So, enjoy the code!*
 
