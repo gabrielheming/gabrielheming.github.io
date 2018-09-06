@@ -1,15 +1,14 @@
 ---
 layout: page
-title: Sobre
+title: About
 permalink: /about/
 ---
+Associate degree in Information Technology (FTEC) and Software Development Specialist (Passo Fundo University), 
+currently acts as a system analyst and actively participate in [iMasters]({{site.imasters-perfil}}) and 
+[Stack Overflow]({{ site.stack-overflow-perfil}}) forums.
 
-Formado em Análise e Desenvolvimento de Sistemas pela FTEC e Especialista em Desenvolvimento de Software pela
-Universidade de Passo Fundo. Atua hoje como Analista de Sistemas e participa de fóruns como [iMasters]({{
-site.imasters-perfil}}) e [Stack Overflow]({{ site.stack-overflow-perfil}}).
-
-Possui experiência em diversas linguagens e, desde 2010, dedicou-se ao estudo de design e arquitetura de software
-orientados à objeto. Divide seu _hobbie_ de programação com esportes.
+Has experience in many programming languages and since 2010 dedicate himself to the object-oriented software 
+design and architecture. Split his _programming hobby_ with sports..
 
 * BitBucket: [{{ site.bitbucket_username }}]({{ site.bitbucket-perfil}})
 * GitHub: [{{ site.github_username }}]({{ site.github-perfil}})
