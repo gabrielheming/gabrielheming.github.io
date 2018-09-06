@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-Associate degree in Information Technology (FTEC) and Software Development Specialist (Passo Fundo University), 
+Associate degree in Information Technology (FTEC) and Software Development Specialization (Passo Fundo University), 
 currently acts as a system analyst and actively participate in [iMasters]({{site.imasters-perfil}}) and 
 [Stack Overflow]({{ site.stack-overflow-perfil}}) forums.
 
