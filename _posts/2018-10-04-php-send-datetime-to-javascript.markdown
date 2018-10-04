@@ -7,7 +7,7 @@ tags: [php , javascript , datetime , iso8601 , api , rest , soap , json]
 author: Gabriel Heming
 ---
 Often when working with Rest API, or ajax requests, the `datetime` information must be sent from back-end to front-end.
-Sometimes, to convert from received `datetime` format to JavaScript [`Date`][date-object] `object` supported format
+Sometimes, to convert from received `datetime` format to JavaScript [`Date`][date-object] object supported format
 might be really annoying.
 
 In this way, questions like [this][stackoverflow-question-1] and [this][stackoverflow-question-2] can be found in Stack
@@ -23,16 +23,16 @@ sometimes the difference on JavaScript or even on PHP has to be handled. Moreove
 
 Although date parts (eg.: _year_, _month_, _day_, etc...) can be sent in separated fields, it does not follow a good API
 design. Even more, the main point here is to find a common format that is fully supported in both sides. Further, it is
-necessary to understand which formats are supported by JavaScript `Date` `object` and that information can be found in
+necessary to understand which formats are supported by JavaScript `Date` object and that information can be found in
 [MDN Date's manual][mdn-date-manual]
 
-Therefore the constructor has a few ways to instantiate a `Date` `object`, only one constructor is going to be focused,
+Therefore the constructor has a few ways to instantiate a `Date` object, only one constructor is going to be focused,
 the same one as used in [`Date.Parse()`][mdn-date-parse].
 
 > **dateString**: String value representing a date. The string should be in a format recognized by the Date.parse()
 method (IETF-compliant RFC 2822 timestamps and also a version of ISO8601).
 
-There is a note below Date.Parse() method that says:
+There is a note below `Date.Parse()` method that says:
 
 > It is not recommended to use Date.parse as until ES5, parsing of strings was entirely implementation dependent. There
 are still many differences in how different hosts parse date strings, therefore date strings should be manually parsed
@@ -54,7 +54,7 @@ Each part of the format correspond to:
 - ss = two digits of second (00 through 59);
 - TZD = time zone designator (Z or +hh:mm or -hh:mm).
 
-The code below creates a Date object with the format above:
+The code below creates a `Date` object with the format above:
 
 {% highlight javascript %}
 var datetime = new Date("2018-10-03T12:00:00+00:00");
