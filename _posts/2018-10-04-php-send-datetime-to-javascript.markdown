@@ -70,16 +70,16 @@ The `ISO8601` format is a good choice because the timezone is carried with the d
 about the timezone at all.
 
 Actually, it is evident in the example above. The date is 12 pm on October 3, 2018, and the time was converted to 09 am
-of GTM-0300 because the computer, where the code runs, was configured to _Brasilia Standard Time_.
+of GTM-0300 because the computer, where the code runs, was set to _Brasilia Standard Time_.
 
-But how could the proper `datetime` format be retrieved from PHP? Must that format be created? The answer is a simple no.
+But how could the proper `datetime` format be retrieved from PHP? Should that format be created? The answer is a simple no.
 That is not necessary because PHP implements an "_almost powerful_" library called [`Date\Time`][datetime-book].
 
 `Date\Time` has a bunch of classes, however, [`DateTime`][datetime-class], and its `interface`
 [`DateTimeInterface`][datetime-interface], are going to be used here to reach the goals.
 
 `DateTimeInterface` has a few constants to be used with the method `DateTime::format()` and it has the format
-`ISO8601`. Yet it is named as `ISO8601`, the format, though, does not correspond to `ISO8601` and it is maintained "as
+`ISO8601`. Although it is named as `ISO8601`, the format does not correspond to `ISO8601` and it is maintained "as
 is" just for backward compatibility reasons.
 
 > **DateTimeInterface::ISO8601**:
