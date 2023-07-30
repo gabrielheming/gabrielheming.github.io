@@ -2,8 +2,7 @@
 layout: post
 title:  "Getting back on track"
 date:   2023-07-29 17:20:00 +0200
-categories: [development , javascript]
-tags: [dotnet , .net , C# , entity, framework, core, efcore, hasqueryfilters, global, query, filters]
+categories: general
 author: Gabriel Heming
 ---
 
